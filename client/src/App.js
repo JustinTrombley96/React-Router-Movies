@@ -5,6 +5,8 @@ import MovieList from './Movies/MovieList';
 import Movie from './Movies/Movie';
 import { Route } from 'react-router-dom';
 
+//Import Route and set them to the correct paths and components.
+
 export default class App extends Component {
 	constructor() {
 		super();

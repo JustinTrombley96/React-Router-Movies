@@ -30,6 +30,9 @@ export default class MovieList extends Component {
 	}
 }
 
+//Import Link and set the link to go to each indivdual movie card
+//using their specific movie ID.
+
 function MovieDetails({ movie }) {
 	const { title, director, metascore, stars } = movie;
 	return (
